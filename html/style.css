@@ -259,3 +259,14 @@ label {
 .nav-item i {
   margin-right: 5px;
 }
+.upvip {
+  display: block;
+  width: auto;
+  padding: 5px 50px;
+  line-height: 30px;
+  border-radius: 20px;
+  background-color: #FA6400;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
+}
