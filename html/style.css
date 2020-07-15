@@ -35,10 +35,12 @@ body {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
   }
-h3 {
+h3,h5 {
     text-align: center;
-    line-height: 300%;
   }
+.title-can {
+  padding: 10px 0;
+}
 label {
     display: inline-block;
     margin-bottom: 5px;
@@ -269,4 +271,219 @@ label {
   color: #fff;
   margin: 10px;
   text-align: center;
+}
+/* pricing */
+
+.pricing-area {
+  margin-top: 25px;
+}
+.single-pricing {
+  position: relative;
+  text-align: center;
+  background-color: #FFBDCD;
+  color: #fff;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.single-pricing-2 {
+  background-color: #FF5983;
+}
+
+.head-text {
+  background-color: transparent;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.price-area .price-area span {
+  font-weight: 600;
+}
+
+.price-area {
+  position: relative;
+  padding: 10px 0;
+  color: #000;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: bold;
+}
+.price-area .nt {
+  font-size: 16px;
+}
+
+/* .price-area span.duration {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 0;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+} */
+
+.price-area:after, .feature-area{
+  border: 0;
+  font-family: poppins;
+  
+}
+
+.feature-area ul {
+  margin: 0;
+  padding: 15px 0;
+  list-style: none;
+ }
+
+.feature-area li {
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.btn-area {
+  /* padding: 15px 30px; */
+ }
+
+.btn-area a {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 0 22px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #303030;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: 2px 2px 3px 0px rgb(134, 0, 67);
+}
+
+.label-area {
+  width: auto;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 0px rgb(134, 0, 67);
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cheap {
+  background: #FF1B83;
+}
+.label-area span {
+  position: relative;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fa87a0;
+  letter-spacing: 1px;
+}
+.cheap span {
+  position: relative;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.go-back {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.popup-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.pay-price {
+  position: relative;
+  text-align: center;
+  background-color: #FFBDCD;
+  color: #fff;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.month-style {
+  padding: 5px 10px;
+  background-color: #FFBDCD;
+  border-radius: 20px;
+  margin: auto;
+}
+.pay-content {
+  padding: 20px;
+  background-color: #FFBDCD;
+  border-radius: 5px;
+  margin: auto;
+}
+.pay-content p{
+  margin-bottom: 0px;
+}
+.pay-way {
+  margin-top: 30px;
+  margin: 20px auto 0px;
+}
+.pay-ways {
+  background-color: rgb(121, 121, 121);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 0px -10px;
+  text-align: center;
+}
+.pay-ways p{
+  margin-bottom: 0px;
+  padding: 20px 0px;
+  color: #fff;
+}
+
+@media (max-width: 767px){
+  h3 {
+    font-size: 20px;
+  }
+  .single-pricing{
+    margin: 30px;
+  }
+    
+}
+
+@media (min-width: 992px){
+  .modal-lg {
+    max-width: 80vw;
+  }
+}
+.close-btn {
+  position: fixed;
+  display: block;
+  right: 20px;
+}
+.popup-title {
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px)  {
+  .single-pricing {
+    padding: 30px 0 10px 0px;
+    margin: auto;
+  }
+  .m-top {
+    margin-top: 20px;
+  }
+  .head-text h5 {
+    margin: 0px;
+  }
+  .price-area {
+    padding: 0px;
+    margin-top: 0px;
+  }
 }
