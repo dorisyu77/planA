@@ -446,7 +446,22 @@ label {
   padding: 20px 0px;
   color: #fff;
 }
-
+.time-btn {
+  color: #fff;
+  background: linear-gradient(90deg, rgba(188, 0, 75, 1)5%, rgba(255, 101, 141, 0.8)51%);
+  background: -moz-linear-gradient(90deg, rgba(188, 0, 75, 1)5%, rgba(255, 101, 141, 0.8)51%);
+  background: -webkit-linear-gradient(90deg, rgba(188, 0, 75, 1)5%, rgba(255, 101, 141, 0.8)51%);
+  background: -o-linear-gradient(90deg, rgba(188, 0, 75, 1)5%, rgba(255, 101, 141, 0.8)51%);
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.time-btn span {
+  color: rgb(255, 251, 0);
+  font-weight: bold;
+}
+.promote-text {
+  font-size: 20px;
+}
 @media (max-width: 767px){
   h3 {
     font-size: 20px;
@@ -485,5 +500,8 @@ label {
   .price-area {
     padding: 0px;
     margin-top: 0px;
+  }
+  .paypopup {
+    margin: auto;
   }
 }
