@@ -503,6 +503,69 @@ label {
 .line-through {
   text-decoration:line-through;
 }
+.add-video {
+  display: block;
+  position: relative;
+  background-color:pink;
+  color: #000;
+  font-size: 14px;
+  border:0px;
+  margin:20px auto;
+}
+.add-video:hover {
+  background-color:pink;
+  color: #000;
+  display: block;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+.f-img {
+  width: 70%;
+  height: auto;
+  display: block;
+  position: relative;
+  text-align: center; 
+}
+.f-img img {
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+}
+.m-video {
+  display: block;
+  position: relative;
+  background-color:pink;
+  color: #000;
+  font-size: 14px;
+  border:0px;
+  margin: 10px auto;
+  width: 100%;
+  padding: 10px;
+}
+.m-video:hover {
+  background-color:pink;
+  color: #000;
+  display: block;
+  position: relative;
+}
+.add-video-list {
+  display: block;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0);
+  color: #fff;
+  font-size: 14px;
+  border:0px;
+  margin: 10px auto;
+  width: 100%;
+  padding: 10px;
+}
+.add-video-list:hover {
+  background-color:rgba(0, 0, 0, 0);
+  color: #fff;
+  display: block;
+  position: relative;
+}
 
 @media (max-width: 767px){
   h3 {
