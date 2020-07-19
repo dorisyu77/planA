@@ -289,6 +289,42 @@ label {
 .single-pricing-2 {
   background-color: #FF5983;
 }
+.single-pricing::before {
+  width: 80px;
+  height: 80px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: -2px;
+  right: -2px;
+  z-index: 1;
+  background: url(img/new.png) no-repeat;
+  background-size: contain;
+}
+.single-pricing-6m::before {
+  width: 80px;
+  height: 80px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: -2px;
+  right: -2px;
+  z-index: 1;
+  background: url(img/new6m.png) no-repeat;
+  background-size: contain;
+}
+.single-pricing-12m::before {
+  width: 80px;
+  height: 80px;
+  content: "";
+  position: absolute;
+  display: block;
+  top: -2px;
+  right: -2px;
+  z-index: 1;
+  background: url(img/new12m.png) no-repeat;
+  background-size: contain;
+}
 
 .head-text {
   background-color: transparent;
@@ -429,6 +465,7 @@ label {
 }
 .pay-content p{
   margin-bottom: 0px;
+  font-size: 16px;
 }
 .pay-way {
   margin-top: 30px;
@@ -459,9 +496,14 @@ label {
   color: rgb(255, 251, 0);
   font-weight: bold;
 }
-.promote-text {
-  font-size: 20px;
+.pay-content p.promote-text {
+  font-size: 26px;
 }
+
+.line-through {
+  text-decoration:line-through;
+}
+
 @media (max-width: 767px){
   h3 {
     font-size: 20px;
