@@ -574,6 +574,9 @@ label {
   .single-pricing{
     margin: 30px;
   }
+  .f-img {
+    width: 100%;
+  }
     
 }
 
