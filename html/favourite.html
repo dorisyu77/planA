@@ -57,7 +57,7 @@
               <a class="nav-link" data-toggle="pill" href="#menu3">女優收藏</a>
             </li>
           </ul>
-          <button type="submit" class="btn btn btn-primary add-video">
+          <button type="button" class="btn btn btn-primary add-video" data-toggle="modal" data-target="#addfavorite">
               <i class="far fa-plus-square"></i>建立新的收藏清單
           </button>
         </div>
@@ -141,7 +141,7 @@
                   </button>
                 </div>
                 <div class="col-sm-12">
-                  <button type="submit" class="btn btn btn-primary add-video-list">
+                  <button type="button" class="btn btn btn-primary add-video-list" data-toggle="modal" data-target="#addfavorite">
                       <i class="far fa-plus-square"></i>建立新的收藏清單
                   </button>
                 </div>
@@ -152,6 +152,37 @@
         </div>
       </div>
     </div>
+
+<!-- Modal -->
+<div class="modal fade" id="addfavorite" tabindex="-1" role="dialog" aria-labelledby="addfavoriteLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addfavoriteLabel">保存至</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="ck-box-pop">
+          <div>
+            <input type="checkbox" id="Check01" name="Checkbox">
+            <label for="Check01">收藏</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Check01" name="Checkbox">
+            <label for="Check01">稍後觀看</label>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn btn-primary add-video-popup" data-toggle="modal" data-target="#addfavorite">
+              <i class="far fa-plus-square"></i>建立新的收藏清單
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/Swiper/4.0.6/js/swiper.min.js"></script>
   <script>

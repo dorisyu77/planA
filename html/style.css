@@ -566,6 +566,34 @@ label {
   display: block;
   position: relative;
 }
+.add-video-popup {
+  display: block;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0);
+  color: #000;
+  font-size: 14px;
+  border:0px;
+  margin: 10px auto;
+  width: 100%;
+}
+.add-video-popup:hover {
+  background-color:rgba(0, 0, 0, 0);
+  color: #000;
+  display: block;
+  position: relative;
+}
+.ck-box-pop {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+/*login button*/
+.web-login-btn {
+  display: block;
+  position: relative;
+  padding: 5px;
+  border:1px solid #000;
+}
 
 @media (max-width: 767px){
   h3 {
