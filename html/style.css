@@ -622,7 +622,7 @@ label {
   color: #b6b6b6;
   font-weight: bold;
 }
-.web-logout-btn {
+.love {
   display: block;
   position: relative;
   padding: 5px 20px;
@@ -632,7 +632,21 @@ label {
   margin-right: 10px;
   background-color: #AC0E3D;
 }
-.web-logout-btn a {
+.love a {
+  color: #b6b6b6;
+  font-weight: bold;
+}
+.member {
+  display: block;
+  position: relative;
+  padding: 5px 20px;
+  border-radius: 5px;
+  float: right;
+  margin-top: -31px;
+  margin-right: 10px;
+  background-color: #AC0E3D;
+}
+.member a {
   color: #b6b6b6;
   font-weight: bold;
 }
