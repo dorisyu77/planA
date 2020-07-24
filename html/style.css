@@ -1,8 +1,10 @@
 body {
     font-size: 14px;
-    width:100%;
     background-color: #000!important;
   }
+p {
+  margin-bottom: 0px;
+}
 .main {
     max-width: 500px;
     margin: 0 auto;
@@ -48,6 +50,7 @@ label {
 }
 .fixed-top {
   position:fixed;
+  display: block;
   height:40px;
   background-color:#ff5983;
   width:100%;
@@ -233,9 +236,9 @@ label {
   width: auto;
   display: inline-block;
 }
-.swiper-slide{
+/* .swiper-slide{
   width: auto!important;
-}
+} */
 .swiper-style{
   height: auto!important;
   width: 100%;
@@ -591,8 +594,47 @@ label {
 .web-login-btn {
   display: block;
   position: relative;
-  padding: 5px;
-  border:1px solid #000;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  float: right;
+  margin-top: -31px;
+  margin-right: 10px;
+}
+.web-login-btn a {
+  color: #000;
+}
+.web-login-btn a:hover {
+  color: #000;
+  font-weight: bold;
+}
+.web-logout-btn {
+  display: block;
+  position: relative;
+  padding: 5px 20px;
+  border-radius: 5px;
+  float: right;
+  margin-top: -31px;
+  margin-right: 10px;
+  background-color: #AC0E3D;
+}
+.web-logout-btn a {
+  color: #b6b6b6;
+  font-weight: bold;
+}
+.web-logout-btn {
+  display: block;
+  position: relative;
+  padding: 5px 20px;
+  border-radius: 5px;
+  float: right;
+  margin-top: -31px;
+  margin-right: 10px;
+  background-color: #AC0E3D;
+}
+.web-logout-btn a {
+  color: #b6b6b6;
+  font-weight: bold;
 }
 
 @media (max-width: 767px){
