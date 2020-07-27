@@ -613,42 +613,94 @@ label {
   position: relative;
   padding: 5px 20px;
   border-radius: 5px;
-  float: right;
   margin-top: -31px;
   margin-right: 10px;
   background-color: #AC0E3D;
+  color: #b6b6b6;
 }
-.web-logout-btn a {
+.web-logout-btn:hover {
   color: #b6b6b6;
   font-weight: bold;
 }
 .love {
   display: block;
   position: relative;
-  padding: 5px 20px;
-  border-radius: 5px;
+  width: 30px;
+  height: 30px;
   float: right;
   margin-top: -31px;
   margin-right: 10px;
-  background-color: #AC0E3D;
+  background-color: #FFBDCD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #d10000;
 }
-.love a {
-  color: #b6b6b6;
+.love:hover{
+  color: #ff0000;
   font-weight: bold;
 }
+.mlove{
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #FFBDCD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #d10000;
+  margin: auto;
+}
+.mlove i{
+  line-height: 50px;
+  margin: auto;
+  font-size: 24px;
+}
+
 .member {
   display: block;
   position: relative;
-  padding: 5px 20px;
-  border-radius: 5px;
+  width: 30px;
+  height: 30px;
   float: right;
   margin-top: -31px;
   margin-right: 10px;
-  background-color: #AC0E3D;
+  background-color: #FFBDCD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #2e2e2e;
 }
-.member a {
-  color: #b6b6b6;
-  font-weight: bold;
+.member:hover {
+  color: #888888;
+}
+.mmember{
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #FFBDCD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #2e2e2e;
+  margin: auto;
+}
+.mmember i{
+  line-height: 50px;
+  margin: auto;
+  font-size: 24px;
+}
+
+.flex {
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.mobicon p{
+  color: #fff;
 }
 
 @media (max-width: 767px){
