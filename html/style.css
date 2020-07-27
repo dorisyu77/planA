@@ -141,7 +141,7 @@ label {
   height: 100%;
 }
 .nav-item{
-  width: 100%;
+  width: auto;
   display: block;
 }
 
@@ -181,7 +181,7 @@ label {
   font-size: 14px;
 }
 .alink-color li a{
-  color: #a7a7a7;
+  color: #cacaca;
 }
 .alink-color li a:hover{
   color: #fff;
@@ -701,6 +701,11 @@ label {
 
 .mobicon p{
   color: #fff;
+}
+.tab-bg {
+  background-color: #4F4F4F;
+  border-right: solid 3px #000;
+  color: #979797;
 }
 
 @media (max-width: 767px){

@@ -40,5 +40,37 @@
         <p>VIP</p>
       </a>
     </nav>
+    <div class="tabScroll swiper-style">
+        <div class="swiper-container">
+          <ul class="nav nav-pills alink-color swiper-wrapper" role="tablist">
+            <li class="nav-item swiper-slide tab-bg">
+              <a class="nav-link" href="/"><i class="fas fa-heart"></i>影片收藏</a>
+            </li>
+            <li class="nav-item swiper-slide tab-bg">
+              <a class="nav-link" href="/">稍後觀看</a>
+            </li>
+            <li class="nav-item swiper-slide tab-bg">
+              <a class="nav-link" href="/">收藏女優</a>
+            </li>
+            <li class="nav-item swiper-slide tab-bg">
+              <a class="nav-link" href="/">切換高畫質</a>
+            </li>
+            <li class="nav-item swiper-slide tab-bg">
+              <a class="nav-link" href="/">線路切換</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.0.6/js/swiper.min.js"></script>
+    <script>
+      
+          var swiper = new Swiper('.swiper-container', {
+              // spaceBetween: 20,
+              slidesPerView: "auto",
+              // freeMode: true
+          });
+      
+    </script>
 </body>
 </html>
