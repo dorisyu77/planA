@@ -643,8 +643,8 @@ label {
 .mlove{
   display: block;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: #FFBDCD;
   border-radius: 50%;
   text-align: center;
@@ -653,9 +653,9 @@ label {
   margin: auto;
 }
 .mlove i{
-  line-height: 50px;
+  line-height: 40px;
   margin: auto;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .member {
@@ -678,8 +678,8 @@ label {
 .mmember{
   display: block;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: #FFBDCD;
   border-radius: 50%;
   text-align: center;
@@ -688,9 +688,9 @@ label {
   margin: auto;
 }
 .mmember i{
-  line-height: 50px;
+  line-height: 40px;
   margin: auto;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .flex {
@@ -698,7 +698,9 @@ label {
   display: flex;
   flex-direction: row-reverse;
 }
-
+.mobicon {
+  padding: 10px 0px;
+}
 .mobicon p{
   color: #fff;
 }
@@ -706,6 +708,58 @@ label {
   background-color: #4F4F4F;
   border-right: solid 3px #000;
   color: #979797;
+}
+
+.app-login {
+  padding: 10px;
+  border-radius: 20px;
+  background: #FF5983;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 10px auto;
+}
+.app-login-text{
+  color:#000;
+  width: 50%;
+  text-align: center;
+}
+.app-login-text:first-child{
+  border-right: solid 1px #000;
+}
+.menu-list li {
+  padding: 10px 0px;
+  list-style-type:none;
+}
+.menu-list li a {
+  font-size: 16px;
+  color: #fff;
+}
+.menu-list li i {
+  padding-right: 5px;
+}
+.hot-color {
+  color:red;
+}
+.border-style {
+  border-top: 1px solid #979797;
+  border-bottom:1px solid #FF5983;
+}
+.border-bottom-style {
+  border-bottom:1px solid #FF5983;
+}
+.community li{
+  color: #fff;
+  background: #50ABF1;
+  list-style-type:none;
+  display: inline;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.community li i {
+  padding-right: 5px;
 }
 
 @media (max-width: 767px){
