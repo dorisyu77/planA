@@ -761,6 +761,14 @@ label {
 .community li i {
   padding-right: 5px;
 }
+.logout {
+  margin: auto;
+  display: block;
+  background: gray;
+  border: none;
+  width: 50%;
+  margin-top: 50px;
+}
 
 @media (max-width: 767px){
   h3 {
