@@ -816,3 +816,14 @@ label {
     margin: auto;
   }
 }
+
+/* 熱門專區按鈕樣式 */
+.hot-tab {
+  margin-top: 50px;
+  background: #474747;
+  border-radius: 25px 0px 0px 25px;
+  padding: 3px;
+}
+.hot-tab .nav-pills .nav-link.active, .nav-pills .show >.nav-link {
+  background-color: #E92877;
+}
