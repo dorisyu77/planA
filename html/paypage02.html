@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!--swiper-->
+    <link href="https://cdn.bootcss.com/Swiper/4.0.6/css/swiper.min.css" rel="stylesheet">  
+    
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css">
+
+<style> 
+.modal-xl{
+    max-width: 1140px;
+}
+.vpn_btn{
+	width: 206px;
+    height: 52px;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.pay_title{
+	background-color: #FF5983;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 2px;
+    color: #fff;
+}
+.pay_menu_l{
+    background: #FFBDCD;
+    box-shadow: inset 0 0 7px 0 rgba(0,0,0,0.50);
+    border-radius: 10px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.pay_menu_r{
+	background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+.pay_price{
+	text-align: center;
+    font-size: 1.2rem;
+}
+.pay_price-2 {
+    width: max-content;
+    margin: auto;
+    padding: 0px 10px;
+    background-color: #343a40;
+    border-radius: 50px;
+}
+.pay_font{
+	font-size: 1.2rem;
+    color: #000;
+}
+.pay_btn{
+	border: solid 2px #ff5983;
+	border-radius: 10px;
+}
+.postbtn {
+    position: absolute;
+    right: 26px;
+    top: 32px;
+}
+
+.p-0 {
+    padding: 10px!important;
+}
+
+</style>
+
+
+</head>
+<body>
+
+    <div class="modal fade show" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="padding-right: 7px; display: block;" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+        <div class="modal-header" style="background-color: #fff;">
+        <h5 class="modal-title py-2 h3" id="exampleModalCenterTitle" style="color:#000;margin: auto;">升級VIP會員</h5>
+        <button type="button" class="close p-0 m-0" style="font-size: 2rem;" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">×</span>
+        </button>
+        </div>
+        <div class="modal-body p-0 mt-2">
+        <div class="container-fluid mt-2" style="z-insex:3;">
+        <div class="row">
+        <div class="col-lg-4 col-md-12 mb-3"><div class="pay_title rounded-top">30天特惠價</div><div class="row" style="background-color: #000;margin: 0px;"><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_l" style=""><div class="text-center text-info " style="font-size:1.4rem">30 天</div><div><div class="pay_price" style="text-decoration: line-through;">299 THB/ 月</div>
+        <div class="pay_price pay_price-2" style="color: red;"><span class="pr-1" stye="color: black;">ON SALE</span>199 THB/ 月</div>
+    </div></div></div><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_r" style=""><div class="text-center" style="font-size: 1.2rem;"></div><div><div class="row m-0"><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=3" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #da7171;">
+        <i class="fab fa-cc-visa"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">TWD 187.73</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">TWD 187.73<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB198.9938</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=5" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">HKD 49.13</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">HKD 49.13<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB198.9765</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=6" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">USD 6.34</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">USD 6.34<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB198.8858</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div></div></div></div></div></div></div><div class="col-lg-4 col-md-12 mb-3"><div class="pay_title rounded-top">180天特惠價</div><div class="row" style="background-color: #000;margin: 0px;"><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_l" style=""><div class="text-center text-info" style="font-size:1.4rem">180 天</div><div><div class="pay_price">249 THB/ 月</div><div style="height:1.7rem"></div></div></div></div><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_r" style=""><div class="text-center" style="font-size: 1.2rem;"></div><div><div class="row m-0"><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=10" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #da7171;">
+        <i class="fab fa-cc-visa"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">TWD 1409.43</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">TWD 1409.43<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB1493.9958</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=12" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">HKD 368.88</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">HKD 368.88<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB1493.964</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=13" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">USD 47.62</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">USD 47.62<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB1493.8394</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div></div></div></div></div></div></div><div class="col-lg-4 col-md-12 mb-3"><div class="pay_title rounded-top">年購特惠價</div><div class="row" style="background-color: #000;margin: 0px;"><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_l" style=""><div class="text-center text-info" style="font-size:1.4rem">365 天</div><div><div class="pay_price">183 THB/ 月</div><div style="height:1.7rem"></div></div></div></div><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_r" style=""><div class="text-center" style="font-size: 1.2rem;"></div><div><div class="row m-0"><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=15" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1"><img style="width: 56px;padding-top: 14px;" src="https://cdn.truemoney.com/wp-content/uploads/2019/07/truemoney-wallet-logo-2x.png" alt=""></div><div class="media-body"><div class="ml-2" style="padding: 8px;font-size: 1.2rem; ">THB 30</div><button type="button" class="postbtn btn-sm btn btn-success" style="bottom:9px;"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=17" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #da7171;">
+        <i class="fab fa-cc-visa"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">TWD 2071.69</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">TWD 2071.69<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB2195.9914</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=19" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">HKD 542.22</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">HKD 542.22<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB2195.991</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=20" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">USD 70</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">USD 70<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB2195.9</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div></div></div></div></div></div></div><div class="col-lg-4 col-md-12 mb-3"><div class="pay_title rounded-top">7天試用</div><div class="row" style="background-color: #000;margin: 0px;"><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_l" style=""><div class="text-center text-info" style="font-size:1.4rem">7 天</div><div><div class="pay_price">99 THB/ 7日</div><div style="height:1.7rem"></div></div></div></div><div class="col-12 m-0 p-0"><div class="text-dark pay_menu_r" style=""><div class="text-center" style="font-size: 1.2rem;"></div><div><div class="row m-0"><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=24" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #da7171;">
+        <i class="fab fa-cc-visa"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">TWD 93.39</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">TWD 93.39<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB98.9934</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=25" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">HKD 24.44</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">HKD 24.44<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB98.982</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div><div class="col-12 px-1 mb-2 p-0"><a href="/payment/pay-promotion/deposit?pay_promotion_a_id=26" target="aoxx69_deposit" style="color:#000"><div class="media pay_btn"><div class="px-1 ml-2" style="font-size: 3.1rem;color: #377dff;">
+        <i class="fab fa-cc-paypal"></i>
+        </div><div class="media-body"><div <div="" class="ml-2" style="font-size: 1.2rem; padding-top: 23px;">USD 3.15</div><span class="mb-0 ml-2" style="color: #9e9a9a;font-size: 0.6rem;">USD 3.15<i class="px-2 fas fa-exchange-alt"></i> : ≒ THB98.8155</span><button type="button" class="postbtn btn-sm btn btn-success"><i class="fas fa-shopping-cart pr-2"></i>BUY</button></div></div></a></div></div></div></div></div></div></div> </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</body>
